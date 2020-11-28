@@ -22,7 +22,7 @@ function LandingPage() {
 
   return (
     <>
-      <div style={{ textAlign: "center", width: '100%' }}>
+      <div style={{ textAlign: "center", padding: 30 }}>
         <Paper className={classes.paper}>
           <Grid container spacing={3}>
             <Grid item xs={3}>
@@ -42,7 +42,6 @@ function LandingPage() {
               <p className="menu">Blog</p>
             </Grid>
           </Grid>
-    
         </Paper>
       </div>
       <div>
