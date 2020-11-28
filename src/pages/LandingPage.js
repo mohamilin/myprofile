@@ -22,31 +22,31 @@ function LandingPage() {
 
   return (
     <>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center", width: '100%' }}>
         <Paper className={classes.paper}>
           <Grid container spacing={3}>
-            <Grid item xs={6} sm={3}>
+            <Grid item xs={3}>
               <HomeIcon fontSize="large" />
               <p className="menu">Home</p>
             </Grid>
-            <Grid item xs={6} sm={3}>
+            <Grid item xs={3}>
               <CodeIcon fontSize="large" />
               <p className="menu">Portofolio</p>
             </Grid>
-            <Grid item xs={6} sm={3}>
+            <Grid item xs={3}>
               <PhoneAndroidIcon fontSize="large" />
               <p className="menu">Contact</p>
             </Grid>
-            <Grid item xs={6} sm={3}>
+            <Grid item xs={3}>
               <BookIcon fontSize="large" />
               <p className="menu">Blog</p>
             </Grid>
           </Grid>
+    
         </Paper>
       </div>
       <div>
-      <p>Halaman Landing</p>
-
+        <p>Halaman Landing</p>
       </div>
     </>
   );
