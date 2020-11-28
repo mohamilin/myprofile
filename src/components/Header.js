@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     height: 60,
-    width: '100%',
+    width: "100%",
     backgroundColor: '#004d40'
   },
 }));
