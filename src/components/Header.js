@@ -21,12 +21,12 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     float: "right",
-    marginRight: '15%',
+    marginRight: '5%',
     marginTop: 5
   },
   appBar: {
     height: 60,
-    width: "100%",
+    width: 400,
     backgroundColor: '#004d40'
   },
 }));
