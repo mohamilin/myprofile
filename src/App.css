@@ -1,5 +1,19 @@
+.app-test {
+
+}
+.sub-app {
+  height: 500px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 30px 10px ;
+}
+
 .App {
   text-align: center;
+  width: 80%;
 }
 
 .App-logo {
