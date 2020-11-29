@@ -14,3 +14,11 @@
     height: 45px !important;
     margin-top: 0 !important;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sub-app-header {
+        width: 400px;
+        margin: 0 auto;   
+    }
+  }
