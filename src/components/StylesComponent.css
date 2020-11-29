@@ -1,16 +1,16 @@
 .sub-app-header {
-    width: 400px;
+    width: 100%;
     margin: 0 auto;   
 }
 
 .cont-toolbar {
     height: 40px !important;
     margin-top: 10px;
+  text-align: center;
 }
 
 .App-logo {
     width: 90px !important; 
     height: 45px !important;
     margin-top: 0 !important;
-    margin-right: 50px !important;
 }
