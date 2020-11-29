@@ -15,7 +15,7 @@
     margin-top: 0 !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
     /* For mobile phones: */
     .sub-app-header {
         width: 400px;

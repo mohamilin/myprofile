@@ -36,7 +36,8 @@ function LandingPage() {
           </Grid>
         </Paper>
       </div>
-      <div>
+      {/* content */}
+      <div className="container-landing">
         <p>Halaman Landing</p>
       </div>
     </>
