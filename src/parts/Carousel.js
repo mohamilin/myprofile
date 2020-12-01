@@ -47,7 +47,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center'
   },
   img: {
-    height: 250,
+    height: 230,
     display: 'block',
     overflow: 'hidden',
     width: '100%',
