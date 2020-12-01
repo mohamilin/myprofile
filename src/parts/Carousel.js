@@ -13,17 +13,17 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
   {
-    label: 'App : Wearel || Link : www.wearel.netlify.app',
+    label: 'My Portofolio',
     imgPath:
     'https://res.cloudinary.com/amilin/image/upload/v1606747119/wearel_ilhsk3.jpg'
   },
   {
-    label: 'App : go-test ||go-test.netlify.app',
+    label: 'My Portofolio',
     imgPath:
     'https://res.cloudinary.com/amilin/image/upload/v1606747119/go-test_f4wngj.jpg'
   },
   {
-    label: 'App : Promeet || promeet.netlify.app',
+    label: 'My Portofolio',
     imgPath:
     'https://res.cloudinary.com/amilin/image/upload/v1606747120/promeet_lmgcjv.jpg'
   },
