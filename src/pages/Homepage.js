@@ -54,7 +54,7 @@ function Homepage() {
               <h3 className={classes.title}>
                 Hi, I'm Amilin a Front End Web Developer
               </h3>
-              <p>Currently looking for a new opportunity. Hire me ?</p>
+              <p>Currently looking for a new opportunity. <br/> Hire me ?</p>
               <Grid
                 container
                 spacing={3}
@@ -86,9 +86,9 @@ function Homepage() {
         {/* end hero section */}
 
         {/* start content */}
-        <div>
+        <div style={{marginTop: 30}}>
           <h4>Skills</h4>
-          <div style={{ textAlign: "center", marginLeft: 20, marginRight: 20 }}>
+          <div style={{ textAlign: "center", marginLeft: 80, marginRight: 80 }}>
             <Grid container spacing={3}>
               <Grid item xs={6} sm={2}>
                 <img
