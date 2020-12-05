@@ -74,7 +74,7 @@ function Homepage() {
                     src={imgArticle}
                     alt="img Project"
                   />
-                  <p style={{ width: 90, marginLeft: 5 }}>3 Articles</p>
+                  <p style={{ width: 90, marginLeft: 5, marginTop: 26 }}>3 Articles</p>
                 </Grid>
               </Grid>
             </div>
