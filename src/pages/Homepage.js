@@ -9,13 +9,12 @@ import imgProgram from "../assets/undraw_programming_2svr.svg";
 import imgProject from "../assets/undraw_project_completed_w0oq.svg";
 import imgArticle from "../assets/undraw_task_31wc.svg";
 import html from "../assets/html.png";
-import css from "../assets/css.webp"
-import js from "../assets/js.png"
-import react from "../assets/react-js.png"
+import css from "../assets/css.webp";
+import js from "../assets/js.png";
+import react from "../assets/react-js.png";
 import node from "../assets/nodejs.png";
 import mongodb from "../assets/mongodb.png";
 import exprees from "../assets/expressks.png";
-
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -37,7 +36,7 @@ const useStyles = makeStyles(() => ({
   },
   imageSkill: {
     width: "90%",
-    height: "90%"
+    height: "90%",
   },
 }));
 
@@ -54,7 +53,9 @@ function Homepage() {
               <h3 className={classes.title}>
                 Hi, I'm Amilin a Front End Web Developer
               </h3>
-              <p>Currently looking for a new opportunity. <br/> Hire me ?</p>
+              <p>
+                Currently looking for a new opportunity. <br /> Hire me ?
+              </p>
               <Grid
                 container
                 spacing={3}
@@ -74,7 +75,9 @@ function Homepage() {
                     src={imgArticle}
                     alt="img Project"
                   />
-                  <p style={{ width: 90, marginLeft: 5, marginTop: 26 }}>3 Articles</p>
+                  <p style={{ width: 90, marginLeft: 5, marginTop: 26 }}>
+                    3 Articles
+                  </p>
                 </Grid>
               </Grid>
             </div>
@@ -85,58 +88,50 @@ function Homepage() {
         </Grid>
         {/* end hero section */}
 
+        {/* update now */}
+        <div style={{ marginTop: 50 }}>
+          <h4>Now ...</h4>
+          <p style={{width : '60%'}}>
+            Saat ini saya sedang membangun dua aplikasi berbasis web yaitu
+            website semacam todo list dan e-commerce. Saya berharap hal ini akan
+            menjadi sangat bermanfaat.
+          </p>
+        </div>
+
+        {/* end */}
+
         {/* start content */}
-        <div style={{marginTop: 30}}>
-          <h4>Skills</h4>
+        <div style={{ marginTop: 30 }}>
+          <h4>Skills ...</h4>
           <div style={{ textAlign: "center", marginLeft: 80, marginRight: 80 }}>
             <Grid container spacing={3}>
               <Grid item xs={6} sm={2}>
+                <img className={classes.imageSkill} src={html} alt="html img" />
+              </Grid>
+              <Grid item xs={6} sm={2}>
+                <img className={classes.imageSkill} src={css} alt="css" />
+              </Grid>
+              <Grid item xs={6} sm={2}>
+                <img className={classes.imageSkill} src={js} alt="js" />
+              </Grid>
+              <Grid item xs={6} sm={2}>
+                <img className={classes.imageSkill} src={react} alt="react" />
+              </Grid>
+              <Grid item xs={6} sm={2}>
+                <img className={classes.imageSkill} src={node} alt="node" />
+              </Grid>
+              <Grid item xs={6} sm={2}>
                 <img
-                className={classes.imageSkill}
-                src={html}
-                alt="html img"
+                  className={classes.imageSkill}
+                  src={exprees}
+                  alt="exprees"
                 />
               </Grid>
               <Grid item xs={6} sm={2}>
                 <img
-                className={classes.imageSkill}
-                src={css}
-                alt="css"
-                />
-              </Grid>
-              <Grid item xs={6} sm={2}>
-                <img
-                className={classes.imageSkill}
-                src={js}
-                alt="js"
-                />
-              </Grid>
-              <Grid item xs={6} sm={2}>
-                <img
-                className={classes.imageSkill}
-                src={react}
-                alt="react"
-                />
-              </Grid>
-              <Grid item xs={6} sm={2}>
-                <img
-                className={classes.imageSkill}
-                src={node}
-                alt="node"
-                />
-              </Grid>
-              <Grid item xs={6} sm={2}>
-                <img
-                className={classes.imageSkill}
-                src={exprees}
-                alt="exprees"
-                />
-              </Grid>
-              <Grid item xs={6} sm={2}>
-                <img
-                className={classes.imageSkill}
-                src={mongodb}
-                alt="mongodb"
+                  className={classes.imageSkill}
+                  src={mongodb}
+                  alt="mongodb"
                 />
               </Grid>
             </Grid>

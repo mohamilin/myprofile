@@ -1,4 +1,5 @@
 import React from "react";
+import { Link} from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -9,6 +10,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import MenuIcon from "@material-ui/icons/Menu";
 import MoreIcon from "@material-ui/icons/MoreVert";
+
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -52,6 +54,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function HeaderComponent() {
+
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -101,10 +104,10 @@ export default function HeaderComponent() {
       onClose={handleMobileMenuClose}
     >
        
-      <MenuItem>
+      <MenuItem component={Link} to='/'>
         <p>Home</p>
       </MenuItem>
-      <MenuItem>
+      <MenuItem component={Link} to='/portofolio'>
         <p>Portofolio</p>
       </MenuItem>
       <MenuItem >
@@ -117,7 +120,9 @@ export default function HeaderComponent() {
   );
 
   return (
+    
     <div className={classes.grow}>
+
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -133,9 +138,9 @@ export default function HeaderComponent() {
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <Button color="inherit">Home</Button>
-            <Button color="inherit">Portofolio</Button>
-            <Button color="inherit">Blog</Button>
+            <Button component={Link} to='/' color="inherit">Home</Button>
+            <Button component={Link} to='/portofolio' color="inherit">Portofolio</Button>
+            <Button  color="inherit">Blog</Button>
             <Button color="inherit">About</Button>
             <Button color="inherit">Contact</Button>
           </div>
