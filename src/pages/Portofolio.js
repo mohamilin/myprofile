@@ -36,7 +36,11 @@ function Portofolio() {
     <>
       <div>
         <h4>My Portofolio ...</h4>
-        <p style={{marginTop: -18}} >The case studies that I build for develop my abilities</p>
+        <p style={{marginTop: -10, marginBottom: 50}} >The case studies that I build for develop my abilities
+        <br/>
+        I am currently building two web-based applications, namely websites
+            such as todo lists for programmers and e-commerce. I hope this will be of great use.
+        </p>
       </div>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} style={{ marginBottom: 0 }}>

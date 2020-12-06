@@ -10,6 +10,7 @@ import HeaderComponent from "./components/HeaderComponent";
 import FooterComponent from "./components/FooterComponent";
 import Homepage from "./pages/Homepage";
 import Portofolio from "./pages/Portofolio";
+import Blogs from "./pages/Blogs";
 
 function App() {
   return (
@@ -24,13 +25,13 @@ function App() {
                     <Homepage />
                   </Route>
                   <Route component={Portofolio} path="/portofolio"/>
-              
+                  <Route component={Blogs} path="/blog"/>
                 </Switch>
             </div>
           </div>
         </div>
-      </Router>
       <FooterComponent />
+      </Router>
     </>
   );
 }

@@ -110,7 +110,7 @@ export default function HeaderComponent() {
       <MenuItem component={Link} to='/portofolio'>
         <p>Portofolio</p>
       </MenuItem>
-      <MenuItem >
+      <MenuItem component={Link} to='/blog'>
         <p>Blog</p>
       </MenuItem>
       <MenuItem >
@@ -140,7 +140,7 @@ export default function HeaderComponent() {
           <div className={classes.sectionDesktop}>
             <Button component={Link} to='/' color="inherit">Home</Button>
             <Button component={Link} to='/portofolio' color="inherit">Portofolio</Button>
-            <Button  color="inherit">Blog</Button>
+            <Button component={Link} to='/blog' color="inherit">Blog</Button>
             <Button color="inherit">About</Button>
             <Button color="inherit">Contact</Button>
           </div>

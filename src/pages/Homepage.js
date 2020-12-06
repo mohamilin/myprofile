@@ -90,10 +90,12 @@ function Homepage() {
 
         {/* update now */}
         <div style={{ marginTop: 50 }}>
-          <h4>Now ...</h4>
+          <h4>I'm ...</h4>
           <p style={{ width: "60%" }}>
-            I am currently building two web-based applications, namely websites
-            such as todo lists for programmers and e-commerce. I hope this will be of great use.
+            I have good social skills in collaborating with the team as well as
+            analysis skills and logic to solve problem and have the knowledge to
+            implement in building web app. <br/> Currently looking for opportunies as
+            front end web developer
           </p>
         </div>
 
