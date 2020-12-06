@@ -32,17 +32,17 @@ function FooterComponent() {
           <br />
           <div style={{ marginTop: 0 }}>
             <Badge >
-              <a target="_blank" href="https://www.instagram.com/cakmilin">
+              <a target="_blank" rel = "noreferrer" href="https://www.instagram.com/cakmilin">
                 <InstagramIcon color="primary" />
               </a>
             </Badge>
             <Badge color="secondary">
-              <a target="_blank" href="https://www.linkedin.com/in/moh-amilin-6a5015128">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/moh-amilin-6a5015128">
                 <LinkedInIcon color="primary" />
               </a>
             </Badge>
             <Badge color="secondary">
-              <a target="_blank" href="https://t.me/mohamilin">
+              <a target="_blank" rel="noreferrer" href="https://t.me/mohamilin">
                 <TelegramIcon color="primary" />
               </a>
             </Badge>
