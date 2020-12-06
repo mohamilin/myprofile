@@ -11,6 +11,9 @@ import FooterComponent from "./components/FooterComponent";
 import Homepage from "./pages/Homepage";
 import Portofolio from "./pages/Portofolio";
 import Blogs from "./pages/Blogs";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+
 
 function App() {
   return (
@@ -26,6 +29,8 @@ function App() {
                   </Route>
                   <Route component={Portofolio} path="/portofolio"/>
                   <Route component={Blogs} path="/blog"/>
+                  <Route component={About} path="/about"/>
+                  <Route component={Contact} path="/contact"/>
                 </Switch>
             </div>
           </div>

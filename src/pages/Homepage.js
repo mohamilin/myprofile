@@ -54,7 +54,14 @@ function Homepage() {
                 Hi, I'm Amilin a Front End Web Developer
               </h3>
               <p>
-                Currently looking for a new opportunity. <br /> Hire me ?
+                Currently looking for a new opportunity. <br />{" "}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://t.me/mohamilin"
+                >
+                  Hire me ?
+                </a>
               </p>
               <Grid
                 container
@@ -67,7 +74,7 @@ function Homepage() {
                     src={imgProject}
                     alt="img Project"
                   />
-                  <p style={{ width: 90, marginLeft: 5 }}>4 Projects</p>
+                  <p style={{ width: 90, marginLeft: 5 }}>3 Projects</p>
                 </Grid>
                 <Grid item sm={6} xs={12}>
                   <img
@@ -76,7 +83,7 @@ function Homepage() {
                     alt="img Project"
                   />
                   <p style={{ width: 90, marginLeft: 5, marginTop: 26 }}>
-                    3 Articles
+                    0 Article
                   </p>
                 </Grid>
               </Grid>
@@ -94,8 +101,8 @@ function Homepage() {
           <p style={{ width: "60%" }}>
             I have good social skills in collaborating with the team as well as
             analysis skills and logic to solve problem and have the knowledge to
-            implement in building web app. <br/> Currently looking for opportunies as
-            front end web developer
+            implement in building web app. <br /> Currently looking for
+            opportunies as front end web developer
           </p>
         </div>
 

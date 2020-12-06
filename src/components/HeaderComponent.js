@@ -113,7 +113,7 @@ export default function HeaderComponent() {
       <MenuItem component={Link} to='/blog'>
         <p>Blog</p>
       </MenuItem>
-      <MenuItem >
+      <MenuItem component={Link} to='/about' >
         <p>About</p>
       </MenuItem>
     </Menu>
@@ -141,8 +141,8 @@ export default function HeaderComponent() {
             <Button component={Link} to='/' color="inherit">Home</Button>
             <Button component={Link} to='/portofolio' color="inherit">Portofolio</Button>
             <Button component={Link} to='/blog' color="inherit">Blog</Button>
-            <Button color="inherit">About</Button>
-            <Button color="inherit">Contact</Button>
+            <Button component={Link} to='/about' color="inherit">About</Button>
+            <Button component={Link} to='/contact' color="inherit">Contact</Button>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton
