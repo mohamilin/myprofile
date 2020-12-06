@@ -91,10 +91,9 @@ function Homepage() {
         {/* update now */}
         <div style={{ marginTop: 50 }}>
           <h4>Now ...</h4>
-          <p style={{width : '60%'}}>
-            Saat ini saya sedang membangun dua aplikasi berbasis web yaitu
-            website semacam todo list dan e-commerce. Saya berharap hal ini akan
-            menjadi sangat bermanfaat.
+          <p style={{ width: "60%" }}>
+            I am currently building two web-based applications, namely websites
+            such as todo lists for programmers and e-commerce. I hope this will be of great use.
           </p>
         </div>
 
@@ -105,22 +104,22 @@ function Homepage() {
           <h4>Skills ...</h4>
           <div style={{ textAlign: "center", marginLeft: 80, marginRight: 80 }}>
             <Grid container spacing={3}>
-              <Grid item xs={6} sm={2}>
+              <Grid item xs={6} sm={3}>
                 <img className={classes.imageSkill} src={html} alt="html img" />
               </Grid>
-              <Grid item xs={6} sm={2}>
+              <Grid item xs={6} sm={3}>
                 <img className={classes.imageSkill} src={css} alt="css" />
               </Grid>
-              <Grid item xs={6} sm={2}>
+              <Grid item xs={6} sm={3}>
                 <img className={classes.imageSkill} src={js} alt="js" />
               </Grid>
-              <Grid item xs={6} sm={2}>
+              <Grid item xs={6} sm={3}>
                 <img className={classes.imageSkill} src={react} alt="react" />
               </Grid>
-              <Grid item xs={6} sm={2}>
+              <Grid item xs={6} sm={3}>
                 <img className={classes.imageSkill} src={node} alt="node" />
               </Grid>
-              <Grid item xs={6} sm={2}>
+              <Grid item xs={6} sm={3}>
                 <img
                   className={classes.imageSkill}
                   src={exprees}
