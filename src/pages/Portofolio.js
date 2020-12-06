@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: "center",
     height: 280,
+    
     color: theme.palette.text.secondary,
   },
   gotest: {
@@ -47,11 +48,13 @@ function Portofolio() {
           <Card className={classes.rootCard}>
             <img src={goTest} className={classes.portofolio} alt="img gotest" />
           </Card>
+          <h3>Go Test <span> :</span> <a target="_blank" href="https://go-test.netlify.app/" rel="noreferrer">www.go-test.netlify.app</a> </h3>
         </Grid>
         <Grid item xs={12} sm={6} style={{ marginBottom: 0 }}>
           <Card className={classes.rootCard}>
             <img src={wearel} className={classes.portofolio} alt="img wearel" />
           </Card>
+          <h3>Wearel <span> :</span> <a target="_blank" href="http://wearel.netlify.app" rel="noreferrer">www.wearel.netlify.app</a> </h3>
         </Grid>
         <Grid item xs={12} sm={6} style={{ marginBottom: 40 }}>
           <Card className={classes.rootCard}>
@@ -61,6 +64,7 @@ function Portofolio() {
               alt="img promeet"
             />
           </Card>
+          <h3>Promeet <span> :</span> <a target="_blank" href="https://promeet.netlify.app/" rel="noreferrer">www.promeet.netlify.app</a> </h3>
         </Grid>
       </Grid>
     </>
